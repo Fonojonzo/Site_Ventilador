@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <h1 class="Fonte Nome">Ventila Mega</h1>
+
+    <div class="Fundo"></div>
+
+    <div class="Base">
+        <a href="login.html">
+            <button class="Fonte LoginCadastro">Login</button>
+        </a>
+
+        <a href="Cadastro.html">
+            <button class="Fonte LoginCadastro">Cadastro</button>
+        </a>
+
+        <div class="Dados">
+            <div class = "Fonte Dados InLine">Nome Completo</div>
+            <input type="text" class="Digitar InLine">
+            <div class="Linha"></div>
+        </div>
+
+        <div class="Dados">
+            <div class = "Fonte Dados InLine">Nome de Usuário</div>
+            <input type="text" class="Digitar InLine">
+            <div class="Linha"></div>
+        </div>
+
+        <div class="Dados">
+            <div class = "Fonte Dados InLine">Email</div>
+            <input type="text" class="Digitar InLine">
+            <div class="Linha"></div>
+        </div>
+
+        <div class="Dados">
+            <div class = "Fonte Dados InLine">CPF</div>
+            <input type="text" class="Digitar InLine">
+            <div class="Linha"></div>
+        </div>
+
+        <div class="Dados">
+            <div class = "Fonte Dados InLine">Senha</div>
+            <input type="text" class="Digitar InLine">
+            <div class="Linha"></div>
+        </div>
+
+        <a href="Inicio.html">
+            <h1 class="Botao">Cadastrar</h1>
+        </a>
+
+
+   
+    
+       
+
+    </div>
+
+
+    <script>
+        function runCode() {
+            var htmlCode = document.getElementById('html-editor').value;
+            var cssCode = document.getElementById('css-editor').value;
+            var iframe = document.getElementById('output');
+            var combinedCode = '<style>' + cssCode + '</style>' + htmlCode;
+            iframe.contentDocument.body.innerHTML = combinedCode;
+        }
+    </script>
+
+    
+</body>
+</html>
